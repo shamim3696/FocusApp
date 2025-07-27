@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.goal-setter {
+  margin-bottom: 20px;
+}
+
+.goal-setter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.goal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.goal-item.done input {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.goal-item input {
+  flex-grow: 1;
+  border: none;
+  background: none;
+  font-size: 1em;
+}
+
+.goal-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-actions button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.goal-actions button:last-child {
+  background-color: #f44336;
+  color: white;
+}
